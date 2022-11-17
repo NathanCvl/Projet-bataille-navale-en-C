@@ -3,8 +3,8 @@
 
 void SaveGrille(int grille[TGRILLE][TGRILLE],char nom[])
 {
-      FILE * fichier =NULL;
-        int i,j;
+    FILE * fichier =NULL;
+    int i,j;
     fichier = fopen(nom,"w+");
   
     for (i = 0; i < TGRILLE; i++)
